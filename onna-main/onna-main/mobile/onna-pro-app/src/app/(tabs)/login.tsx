@@ -102,10 +102,7 @@ export default function Login() {
                             </Text>
 
                             <Pressable className="w-[75%] h-[50px] bg-red-500 justify-center items-center rounded-[12.5px] shadow-lg shadow-black" onPress={LoginHandle} >
-                                <Link href={"/(dashboard)/home"}>
-                                    <Text className="text-[18.75px] color-white font-Imedium" >Login</Text>
-                                </Link>
-
+                                <Text className="text-[18.75px] color-white font-Imedium" >Login</Text>
                             </Pressable>
 
 
