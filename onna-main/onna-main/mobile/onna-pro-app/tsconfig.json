@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "src/hooks/useAsyncStorage.ts", "src/app/_layout.js", "src/app/(tabs)/(dashboard)/chat/chatRoom.js", "src/app/(tabs)/(dashboard)/home/index.tsx", "src/app/(tabs)/(dashboard)/chat/index.js", "src/components/message.tsx", "src/app/(tabs)/(dashboard)/chat/_layout.tsx"  ]
+}
