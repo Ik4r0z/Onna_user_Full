@@ -50,7 +50,7 @@ export default function Index() {
 
                 <View className="w-[62.5%] h-[50px] flex-row justify-around items-center gap-[1px]" >
                     <Pressable className="w-full h-[50px] bg-red-500 justify-center items-center rounded-[12.5px]" onPress={RouterHandle} >
-                        <Link href={"/(dashboard)/home"}>
+                        <Link href={"/(tabs)/login"}>
                             <Text className="text-[18.75px] color-white font-Imedium" >Login</Text>
                         </Link>
                     </Pressable>

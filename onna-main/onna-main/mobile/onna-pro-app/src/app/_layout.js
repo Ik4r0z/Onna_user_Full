@@ -29,7 +29,7 @@ const LayoutMain = () => {
             router.replace("/(dashboard)/chat/")
         } else if (isAuthenticated === false) {
             // redirecionar para login
-            router.replace("/(tabs)/login")
+            router.replace("/")
         }
     }, [isAuthenticated])
 

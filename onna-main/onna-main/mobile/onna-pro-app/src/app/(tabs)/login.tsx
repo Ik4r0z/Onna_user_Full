@@ -23,12 +23,20 @@ export default function Login() {
     const emailRef = useRef("")
     const passwordRef = useRef("")
 
+    /*
+    - Oi, doutor! Tudo bem?
+- Meu bebê tem três semanas e percebi que ele parece ter dificuldades para movimentar um dos
+bracinhos, ele parece mais fraco e às vezes fica rígido. Isso pode ser um sinal de algo sério no
+cérebro dele?
+
+    */
+
     // login_Tipo_Usuario
     const Login = async (email: string, senha: string) => {
         try {
             const res = await api.post("/api/auth/tipoUsuario", {
-                email: email, // Yasmim@gmail.com
-                senha: senha  // C!@nm123543
+                email: email, // PamFerrer@gmail.com
+                senha: senha  // PamFerLima90%
             })
 
             if (res.status === 200) {
